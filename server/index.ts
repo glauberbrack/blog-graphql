@@ -6,11 +6,5 @@ const typeDefs = gql`
   }
 `;
 
-const resolvers = {
-  Query: {
-    hello: () => "Hello World!",
-  },
-};
-
 const server = new ApolloServer({ typeDefs, resolvers });
 server.listen();
