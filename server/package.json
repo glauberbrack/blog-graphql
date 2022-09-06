@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
   "dependencies": {
     "@graphql-tools/load-files": "^6.3.2",
     "@graphql-tools/merge": "^6.2.14",
